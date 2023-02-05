@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Itim", cursive;
+}
+
+h1 {
+  margin: 45px auto 0px auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 5rem;
+  color: #f55050;
+}
+
+#heading-black {
+  color: black;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #9d3c72;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #c85c8e;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+a {
+  color: #cd5888;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9d3c72;
+}
+
+hr {
+  width: 15%;
+  border-top: 10px dotted #f55050;
+  margin: 90px auto;
+}
+
+#top-container {
+  background-color: #fad3e7;
+  position: relative;
+  padding-top: 100px;
+}
+
+#middle-container {
+  margin: 50px 0;
+}
+
+#bottom-container {
+  background-color: #fad3e7;
+  padding-top: 58px;
+  padding-bottom: 22px;
+}
+
+#top-flower {
+  position: absolute;
+  right: 120px;
+  top: 50px;
+  height: 210px;
+  width: 220px;
+}
+
+#bottom-flower {
+  position: absolute;
+  left: 150px;
+  top: 330px;
+  height: 190px;
+  width: 200px;
+}
+
+#flower {
+  margin-top: 20px;
+  height: 500px;
+  width: 500px;
+}
+
+#profile {
+  margin-bottom: 40px;
+}
+
+#profile-pic {
+  height: 360px;
+  width: 380px;
+  position: relative;
+  left: 40px;
+}
+
+#teaching-online-pic {
+  width: 40%;
+  float: left;
+  margin: 0 120px;
+}
+
+#programming-pic {
+  width: 40%;
+  float: left;
+  margin: 0 120px;
+}
+
+#self-learning-pic {
+  width: 30%;
+  float: left;
+  margin-left: 185px;
+  margin-right: 182px;
+}
+
+#contact-me {
+  line-height: 2;
+}
+
+#contact-me-flower {
+  height: 200px;
+  width: 220px;
+}
+
+#copyright {
+  margin-top: 40px;
+  font-size: 1rem;
+}
+
+.skill-row {
+  width: 75%;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.skill-row-inner-div {
+  padding: 80px 0;
+}
+
+.btn {
+  background: #c85c8e;
+  background-image: -webkit-linear-gradient(top, #c85c8e, #9d3c72);
+  background-image: -moz-linear-gradient(top, #c85c8e, #9d3c72);
+  background-image: -ms-linear-gradient(top, #c85c8e, #9d3c72);
+  background-image: -o-linear-gradient(top, #c85c8e, #9d3c72);
+  background-image: linear-gradient(to bottom, #c85c8e, #9d3c72);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Itim", cursive;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 6px 20px 6px 20px;
+  border: solid #fad3e7 2px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #cd5888;
+  text-decoration: none;
+}
